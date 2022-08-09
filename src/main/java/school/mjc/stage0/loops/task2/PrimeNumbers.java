@@ -9,8 +9,10 @@ public class PrimeNumbers {
                 count++;
                 break;
             }
-            System.out.println(count);
             i++;
+        }
+        if (count == 0) {
+            System.out.println(printToInclusive );
         }
     }
 }
